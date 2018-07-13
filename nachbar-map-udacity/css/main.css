@@ -1,0 +1,53 @@
+html,
+body,
+#main,
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  background-color: darkblue;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  color: white;
+}
+
+.sidebar a {
+  padding: 4px 4px 4px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  display: block;
+  transition: 0.2s
+}
+
+.sidebar a:hover,
+.offcanvas a:focus {
+  color: #f1f1f1;
+}
+
+.openbtn,
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  background-color: white;
+  z-index: 1;
+}
+
+.inline-block {
+  display: inline-block;
+}
